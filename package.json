@@ -1,5 +1,5 @@
 {
-  "name": "sails-generate-new",
+  "name": "sails-generate-new-gulp",
   "version": "0.10.17",
   "description": "Generate a new Sails app.",
   "main": "lib/index.js",
@@ -21,11 +21,11 @@
     "async": "~0.2.9"
   },
   "devDependencies": {
-    "sails-generate": "git://github.com/Karnith/sails-generate.git",
+    "sails-generate": "*",
     "reportback": "*",
     "fs-extra": "*",
     "sails-generate-backend": "~0.10.1",
-    "sails-generate-frontend": "~0.10.1",
+    "sails-generate-frontend-gulp": "git://github.com/Karnith/sails-generate-frontend-gulp.git",
     "sails-generate-gulpfile": "git://github.com/Karnith/sails-generate-gulpfile.git"
   },
   "sailsGenerator": {
