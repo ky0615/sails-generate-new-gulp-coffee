@@ -1,7 +1,16 @@
-# sails-generate-new
+# sails-generate-new-gulp
 
-A generator for Sails.js.
+A gulp generator for Sails.js that works with sails lift.
 
+## Install
+
+```sh
+$ npm install -g sails-generate-backend-gulp
+$ npm install -g sails-generate-gulpfile
+$ npm install -g sails-generate-frontend-gulp
+$ npm install -g sails-generate-new-gulp
+
+```
 
 ## Usage
 
