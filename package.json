@@ -16,6 +16,7 @@
   "author": "balderdashy",
   "license": "MIT",
   "dependencies": {
+    "fs-extra": "^0.10.0",
     "lodash": ">=2.4.x",
     "merge-defaults": ">=0.1.0",
     "async": "~0.2.9"
@@ -23,7 +24,6 @@
   "devDependencies": {
     "sails-generate": "*",
     "reportback": "*",
-    "fs-extra": "*",
     "sails-generate-backend": "~0.10.1",
     "sails-generate-frontend-gulp": "git://github.com/Karnith/sails-generate-frontend-gulp.git",
     "sails-generate-gulpfile": "git://github.com/Karnith/sails-generate-gulpfile.git"
