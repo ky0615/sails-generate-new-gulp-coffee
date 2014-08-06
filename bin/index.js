@@ -20,7 +20,7 @@ sailsgen(Generator, {
 		dependencies: {
 			'sails-disk': '1.2.3',
 			'ejs': '1.2.3',
-			'grunt': '1.2.3'
+			'gulp': '1.2.3'
 		}
 	}
 
