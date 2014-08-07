@@ -1,3 +1,5 @@
+![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
+
 # sails-generate-new-gulp
 
 A gulp generator for Sails.js that works with sails lift.
@@ -17,7 +19,7 @@ $ npm install -g sails-generate-new-gulp
 #### On the command line
 
 ```sh
-sails generate sails-generate-new
+sails generate sails-generate-new-gulp
 ```
 
 #### In a node script
@@ -25,7 +27,7 @@ sails generate sails-generate-new
 ```javascript
 var generate = require('sails-generate');
 var scope = {};
-generate(require('sails-generate-new'), scope, function (err) {
+generate(require('sails-generate-new-gulp'), scope, function (err) {
 	if (err) throw err;
 
 	// Log output available in `scope` for your enjoyment:
