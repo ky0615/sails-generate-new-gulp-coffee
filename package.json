@@ -11,7 +11,8 @@
     "generator",
     "sails",
     "generate",
-    "plugin"
+    "plugin",
+    "gulp"
   ],
   "author": "karnith",
   "license": "MIT",
