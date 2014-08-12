@@ -28,14 +28,11 @@ module.exports = function dataForPackageJSON (scope) {
 		description: 'a Sails application',
 		keywords: [],
 		dependencies: {
-			'sails'      : sailsVersionDependency,
-			'sails-disk' : getDependencyVersion(sailsPkg, 'sails-disk'),
-			'rc'         : getDependencyVersion(sailsPkg, 'rc'),
-			'include-all': getDependencyVersion(sailsPkg, 'include-all'),
 			'ejs'        : getDependencyVersion(sailsPkg, 'ejs'),
 			'gulp'      : "^3.8.7",
 			'gulp-autoprefixer' : "0.0.8",
 			'gulp-cache': "^0.2.0",
+			"gulp-changed": "^0.4.1",
 			'gulp-coffee': "2.1.1",
 			'gulp-concat': "^2.3.4",
 			'gulp-imagemin': "^0.6.2",
@@ -53,7 +50,11 @@ module.exports = function dataForPackageJSON (scope) {
 			'gulp-sass': "0.7.2",
 			'gulp-uglify': "^0.3.1",
 			'gulp-util': "3.0.0",
-			'run-sequence': "^0.3.6"
+			'include-all': getDependencyVersion(sailsPkg, 'include-all'),
+			'rc'         : getDependencyVersion(sailsPkg, 'rc'),
+			'run-sequence': "^0.3.6",
+			'sails'      : sailsVersionDependency,
+			'sails-disk' : getDependencyVersion(sailsPkg, 'sails-disk')
 		},
 		scripts: {
 			start: 'node app.js',
