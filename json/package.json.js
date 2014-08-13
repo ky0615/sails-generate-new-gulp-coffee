@@ -35,6 +35,7 @@ module.exports = function dataForPackageJSON (scope) {
 			"gulp-changed": "^0.4.1",
 			'gulp-coffee': "2.1.1",
 			'gulp-concat': "^2.3.4",
+			'gulp-if': "^1.2.4",
 			'gulp-imagemin': "^0.6.2",
 			'gulp-jade': "0.7.0",
 			'gulp-jshint': "^1.8.4",
