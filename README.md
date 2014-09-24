@@ -37,7 +37,7 @@ $ npm install -g sails-generate-new-gulp
 #### On the command line
 
 ```sh
-sails generate sails-generate-new-gulp
+sails new <project name>
 ```
 
 #### In a node script
