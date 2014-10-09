@@ -53,6 +53,7 @@ module.exports = function dataForPackageJSON (scope) {
 			'gulp-util': "3.0.0",
 			'include-all': getDependencyVersion(sailsPkg, 'include-all'),
 			'rc'         : getDependencyVersion(sailsPkg, 'rc'),
+			'rimraf': '*',
 			'run-sequence': "^0.3.6",
 			'sails'      : sailsVersionDependency,
 			'sails-disk' : getDependencyVersion(sailsPkg, 'sails-disk')
