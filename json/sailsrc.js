@@ -7,8 +7,14 @@
 module.exports = function(scope) {
 
 	var package = {};
+    package.hooks = {
+        "grunt": false
+    };
 	package.generators = {};
-	package.generators.modules = {};
+	package.generators.modules = {
+        "bower": "sails-generate-bower-gulp",
+        "angular": "sails-generate-angular-gws"
+    };
 
 	//
 	// if scope has exceptional config, include it in the rc file:
