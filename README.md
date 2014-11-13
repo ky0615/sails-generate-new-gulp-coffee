@@ -8,10 +8,10 @@ A gulp generator for Sails.js that works with sails lift.
 ## Install
 
 ```sh
-$ npm install -g sails-generate-backend-gulp
-$ npm install -g sails-generate-gulpfile
-$ npm install -g sails-generate-frontend-gulp
-$ npm install -g sails-generate-new-gulp
+$ npm install -g sails-generate-backend-gulp-coffee
+$ npm install -g sails-generate-gulpfile-coffee
+$ npm install -g sails-generate-frontend-gulp-coffee
+$ npm install -g sails-generate-new-gulp-coffee
 
 ```
 
@@ -23,10 +23,10 @@ $ npm install -g sails-generate-new-gulp
 {
     "generators": {
         "modules": {
-            "new": "sails-generate-new-gulp",
-            "frontend": "sails-generate-frontend-gulp",
-            "backend": "sails-generate-backend-gulp",
-            "gulpfile": "sails-generate-gulpfile"
+            "new": "sails-generate-new-gulp-coffee",
+            "frontend": "sails-generate-frontend-gulp-coffee",
+            "backend": "sails-generate-backend-gulp-coffee",
+            "gulpfile": "sails-generate-gulpfile-coffee"
         }
     }
 }
@@ -42,15 +42,13 @@ sails new <project name>
 
 #### In a node script
 
-```javascript
-var generate = require('sails-generate');
-var scope = {};
-generate(require('sails-generate-new-gulp'), scope, function (err) {
-	if (err) throw err;
+```CoffeeScript
 
-	// Log output available in `scope` for your enjoyment:
-	console.log(scope);
-});
+generate = require "sails-generate"
+scope = {}
+generate require('sails-generate-new-gulp-coffee'), scope, (err)->
+  throw err if err
+  console.log scope
 ```
 
 

@@ -19,7 +19,7 @@ sailsgen(Generator, {
 		version: '0',
 		dependencies: {
 			'sails-disk': '1.2.3',
-			'ejs': '1.2.3',
+			'ect': "0.5.9",
 			'gulp': '1.2.3'
 		}
 	}
