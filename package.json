@@ -1,5 +1,5 @@
 {
-  "name": "sails-generate-new-gulp",
+  "name": "sails-generate-new-gulp-coffee",
   "version": "0.0.9",
   "description": "Generate a new Sails app using gulp instead of grunt.",
   "main": "lib/index.js",
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Karnith/sails-generate-new-gulp"
+    "url": "git://github.com/ky0615/sails-generate-new-gulp-coffee"
   },
   "bugs": {
-    "url": "https://github.com/Karnith/sails-generate-new-gulp/issues"
+    "url": "https://github.com/ky0615/sails-generate-new-gulp-coffee/issues"
   },
   "sailsGenerator": {
     "type": "new",

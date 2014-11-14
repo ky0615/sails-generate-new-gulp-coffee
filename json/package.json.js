@@ -28,9 +28,10 @@ module.exports = function dataForPackageJSON (scope) {
 		description: 'a Sails application',
 		keywords: [],
 		dependencies: {
-			'ejs'        : getDependencyVersion(sailsPkg, 'ejs'),
+			'ect'        : getDependencyVersion(sailsPkg, 'ect'),
 			'gulp'      : "^3.8.7",
 			'gulp-autoprefixer' : "1.0.1",
+			'coffee-script': "^1.8.0",
 			'gulp-cache': "^0.2.0",
 			"gulp-changed": "1.0.0",
 			'gulp-coffee': "2.2.0",
@@ -62,7 +63,7 @@ module.exports = function dataForPackageJSON (scope) {
 			start: 'node app.js',
 			debug: 'node debug app.js'
 		},
-		main: 'app.js',
+		main: 'app.coffee',
 		repository: {
 			type: 'git',
 			url: util.format('git://github.com/%s/%s.git', scope.github.username, scope.appName)
