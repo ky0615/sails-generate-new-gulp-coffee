@@ -66,12 +66,12 @@ See `CONTRIBUTING.md`.
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE
 
-[npm-url]: https://npmjs.org/package/sails-generate-new-gulp
-[npm-version-image]: http://img.shields.io/npm/v/sails-generate-new-gulp.svg?style=flat
-[npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-new-gulp.svg?style=flat
+[npm-url]: https://npmjs.org/package/sails-generate-new-gulp-coffee
+[npm-version-image]: http://img.shields.io/npm/v/sails-generate-new-gulp-coffee.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/sails-generate-new-gulp-coffee.svg?style=flat
 
-[dependency-image]: https://gemnasium.com/Karnith/sails-generate-new-gulp.svg?style=flat
-[dependency-url]: https://gemnasium.com/Karnith/sails-generate-new-gulp
+[dependency-image]: https://gemnasium.com/ky0615/sails-generate-new-gulp-coffee.svg?style=flat
+[dependency-url]: https://gemnasium.com/ky0615/sails-generate-new-gulp-coffee
 
-[coverage-image]: http://img.shields.io/coveralls/Karnith/sails-generate-new-gulp/master.svg?style=flat
-[coverage-url]: https://coveralls.io/r/Karnith/sails-generate-new-gulp?branch=master
+[coverage-image]: http://img.shields.io/coveralls/ky0615/sails-generate-new-gulp-coffee/master.svg?style=flat
+[coverage-url]: https://coveralls.io/r/ky0615/sails-generate-new-gulp-coffee?branch=master
